@@ -1,0 +1,20 @@
+{
+  "name": "get-object-diff",
+  "version": "1.0.0",
+  "description": "Get the difference between objects",
+  "main": "index.js",
+  "author": "DavidWells",
+  "license": "MIT",
+  "scripts": {
+    "publish": "git push origin && git push origin --tags",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  },
+  "dependencies": {
+    "lodash.isarray": "^4.0.0",
+    "lodash.isequal": "^4.5.0",
+    "lodash.isobject": "^3.0.2",
+    "lodash.transform": "^4.6.0"
+  }
+}
